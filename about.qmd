@@ -1,0 +1,10 @@
+---
+title: "About"
+---
+
+Placeholder for the about page.
+
+* What is Quarto?
+* Why is Quarto?
+* How is Quarto?
+* Who is Quarto?

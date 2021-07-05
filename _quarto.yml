@@ -15,7 +15,11 @@ site:
   navbar:
     search: true
     right:
-      - text: "RStudio.com"
-        url: "https://rstudio.com"
-
-
+      - text: "About"
+        url: about.qmd
+      - text: "Get Started"
+        url: get_started.qmd
+      - text: "Guides"
+        url: guides.qmd
+      - text: "Reference"
+        url: refrenece.qmd
