@@ -1,3 +1,21 @@
 project:
-  title: "quarto-web-redesign"
+  type: site
+
+execute:
+  freeze: true
+
+site:
+  title: "Quarto Docs"
+  page-navigation: true
+  site-url: https://pommevilla.github.io/quarto-web-redesign
+  repo-url: https://github.com/pommevilla/quarto-web-redesign
+  repo-actions: [edit, issue]
+
+
+  navbar:
+    search: true
+    right:
+      - text: "RStudio.com"
+        url: "https://rstudio.com"
+
 
