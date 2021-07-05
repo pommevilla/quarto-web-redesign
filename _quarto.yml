@@ -14,12 +14,40 @@ site:
 
   navbar:
     search: true
+    logo: docs/images/quarto-logo.png
+    background: "light"
     right:
       - text: "About"
-        url: about.qmd
+        url: docs/about/overview.qmd
       - text: "Get Started"
-        url: get_started.qmd
+        url: docs/getting_started/overview.qmd
       - text: "Guides"
-        url: guides.qmd
+        url: docs/how_to/overview.qmd
       - text: "Reference"
-        url: reference.qmd
+        url: docs/references/overview.qmd
+      - text: "Gallery"
+        url: docs/gallery/overview.qmd
+
+  sidebar:
+    style: "docked"
+    collapse-level: 1
+    align: left
+    contents:
+      - section: "Getting Started"
+        contents:
+          - docs/getting_started/overview.qmd
+      - section: "Guides"
+        contents:
+          - docs/how_to/overview.qmd
+      - section: "Reference"
+        contents:
+          - docs/references/overview.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    code-background: true
+    code-copy: true
+    css: styles/styles.css
+    toc: true
