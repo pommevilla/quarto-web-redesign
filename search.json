@@ -6,6 +6,30 @@
     "text": ""
   },
   {
+    "href": "reference.html",
+    "title": "References",
+    "section": "",
+    "text": "Further sources\nDocumentations"
+  },
+  {
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Placeholder for the about page.\n\nWhat is Quarto?\nWhy is Quarto?\nHow is Quarto?\nWho is Quarto?"
+  },
+  {
+    "href": "guides.html",
+    "title": "Guides",
+    "section": "",
+    "text": "Placeholder for Guides.\n\nHow to use the Github action to do blank…"
+  },
+  {
+    "href": "get_started.html",
+    "title": "Getting started",
+    "section": "",
+    "text": "Placeholder for intro tutorial.\nGet you going!"
+  },
+  {
     "href": "index.html",
     "title": "Quarto Docs",
     "section": "",
