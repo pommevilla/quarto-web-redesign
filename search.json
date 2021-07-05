@@ -6,33 +6,39 @@
     "text": ""
   },
   {
-    "href": "reference.html",
+    "href": "index.html",
+    "title": "I’m like, Hey, What’s up Quarto?",
+    "section": "",
+    "text": "NIce big page."
+  },
+  {
+    "href": "docs/references/overview.html",
     "title": "References",
     "section": "",
     "text": "Further sources\nDocumentations"
   },
   {
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Placeholder for the about page.\n\nWhat is Quarto?\nWhy is Quarto?\nHow is Quarto?\nWho is Quarto?"
-  },
-  {
-    "href": "guides.html",
+    "href": "docs/how_to/overview.html",
     "title": "Guides",
     "section": "",
     "text": "Placeholder for Guides.\n\nHow to use the Github action to do blank…"
   },
   {
-    "href": "get_started.html",
+    "href": "docs/about/overview.html",
+    "title": "About",
+    "section": "",
+    "text": "Placeholder for the about page.\n\nWhat is Quarto?\nWhy is Quarto?\nHow is Quarto?\nWho is Quarto?"
+  },
+  {
+    "href": "docs/gallery/overview.html",
+    "title": "Examples Gallery",
+    "section": "",
+    "text": "Placeholder for examples gallery."
+  },
+  {
+    "href": "docs/getting_started/overview.html",
     "title": "Getting started",
     "section": "",
     "text": "Placeholder for intro tutorial.\nGet you going!"
-  },
-  {
-    "href": "index.html",
-    "title": "Quarto Docs",
-    "section": "",
-    "text": "Welcome to Quarto!"
   }
 ]
