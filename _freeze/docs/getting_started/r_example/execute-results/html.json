@@ -1,0 +1,16 @@
+{
+  "hash": "676b1559b15836fbd5a8ad6b72fdab62",
+  "result": {
+    "markdown": "---\ntitle: \"Example R\"\n---\n\nThis is a Quarto document containing R code.\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(1:10)\n```\n\n::: {.cell-output-display}\n![](r_example_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::",
+    "supporting": [
+      "r_example_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": [],
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}

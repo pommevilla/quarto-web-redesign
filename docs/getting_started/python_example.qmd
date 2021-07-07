@@ -1,0 +1,17 @@
+---
+title: "Example Python Document"
+---
+
+This is a Quarto document containing Python code.
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+t = [x for x in range(1, 11)]
+
+fig, ax = plt.subplots()
+ax.plot(t, t);
+
+plt.show()
+```

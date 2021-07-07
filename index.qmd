@@ -1,5 +1,5 @@
 ---
-title: "I'm like, Hey, What's up Quarto?"
+title: "Landing page"
 ---
 
-NIce big page.
+Placeholder for nice landing page.

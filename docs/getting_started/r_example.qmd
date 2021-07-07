@@ -1,0 +1,9 @@
+---
+title: "Example R"
+---
+
+This is a Quarto document containing R code.
+
+``` {r}
+plot(1:10)
+```

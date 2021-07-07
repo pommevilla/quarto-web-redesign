@@ -36,6 +36,8 @@ site:
       - section: "Getting Started"
         contents:
           - docs/getting_started/overview.qmd
+          - docs/getting_started/installation.qmd
+          - docs/getting_started/first_quarto.qmd
       - section: "Guides"
         contents:
           - docs/how_to/overview.qmd

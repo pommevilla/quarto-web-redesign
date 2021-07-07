@@ -1,0 +1,7 @@
+---
+title: "Installation"
+---
+
+Download all the stuff you need to.
+
+End with quarto check.

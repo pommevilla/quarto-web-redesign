@@ -1,0 +1,25 @@
+---
+title: "Example R + Python"
+---
+
+This is a Quarto document containing both R and Python code.
+
+Here is some R code:
+
+```{r}
+plot(1:10)
+```
+
+And here is some Python code:
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+t = [x for x in range(1, 11)]
+
+fig, ax = plt.subplots()
+ax.plot(t, t);
+
+plt.show()
+```
