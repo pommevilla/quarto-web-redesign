@@ -4,4 +4,5 @@ title: "Your First Quarto Document"
 
 Create a simple Quarto document in R/Python.
 
-End with rendering it to different outputs.
+
+End with rendering it to different *document* formats (Word, pdf, latex)

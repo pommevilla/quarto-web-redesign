@@ -1,7 +1,8 @@
 ---
 title: "Examples Gallery"
+sidebar: false
 ---
 
-Placeholder for examples gallery.
+See what other people have made with Quarto!
 
-# What's up with this?
+Placeholder for examples gallery.

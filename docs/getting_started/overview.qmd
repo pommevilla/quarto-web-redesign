@@ -1,5 +1,5 @@
 ---
-title: "I'm like, hey, what's up, Quarto?"
+title: "Hello Quarto"
 ---
 
 ## Introduction
