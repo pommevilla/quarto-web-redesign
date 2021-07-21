@@ -1,5 +1,7 @@
 ---
 title: "Landing page"
+sidebar: false
 ---
 
 Placeholder for nice landing page.
+
