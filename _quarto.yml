@@ -38,6 +38,10 @@ site:
           - docs/getting_started/overview.qmd
           - docs/getting_started/installation.qmd
           - docs/getting_started/first_quarto.qmd
+          - docs/getting_started/different_outputs.qmd
+      - section: "Quarto Projects"
+        contents:
+          - docs/projects/overview.qmd
       - section: "Guides"
         contents:
           - docs/how_to/overview.qmd
