@@ -3,5 +3,37 @@ title: "Landing page"
 sidebar: false
 ---
 
+
+<div class='quarto-splash'>
+  <img src="docs/images/quarto-logo.png" alt="Italian Trulli">
+</div>
+
 Placeholder for nice landing page.
 
+<div class='landing-card'>
+  <div class='top-half'>
+    Does this work?
+  </div>
+  <div class='bottom-half'>
+    Does this work?
+  </div>
+</div>
+
+
+<div class='landing-card'>
+  <div class='top-half'>
+    How about this?
+  </div>
+  <div class='bottom-half'>
+    How about this?
+  </div>
+</div>
+
+<div class='landing-card'>
+  <div class='top-half'>
+    How about this?
+  </div>
+  <div class='bottom-half'>
+    How about this?
+  </div>
+</div>
