@@ -17,34 +17,40 @@ site:
     logo: docs/images/quarto-logo.png
     background: "light"
     right:
-      - text: "About"
-        url: docs/about/overview.qmd
-      - text: "Get Started"
-        url: docs/getting_started/overview.qmd
+      - text: "Tutorials"
+        menu:
+          - text: "Getting started" 
+            file: docs/tutorials/getting_started/overview.qmd
+          - text: "Quarto Projects" 
+            file: docs/tutorials/quarto_projects/overview.qmd
       - text: "Guides"
-        url: docs/how_to/overview.qmd
-      - text: "Reference"
+        url: docs/guides/overview.qmd
+      - text: "References"
         url: docs/references/overview.qmd
       - text: "Gallery"
         url: docs/gallery/overview.qmd
+      - text: "About"
+        url: docs/about/overview.qmd
 
   sidebar:
     style: "docked"
     collapse-level: 1
     align: left
     contents:
-      - section: "Getting Started"
+      - section: "Tutorials"
         contents:
-          - docs/getting_started/overview.qmd
-          - docs/getting_started/installation.qmd
-          - docs/getting_started/first_quarto.qmd
-          - docs/getting_started/different_outputs.qmd
-      - section: "Quarto Projects"
-        contents:
-          - docs/projects/overview.qmd
+          - section: "Getting Started"
+            contents: 
+            - docs/tutorials/getting_started/overview.qmd
+            - docs/tutorials/getting_started/installation.qmd
+            - docs/tutorials/getting_started/first_quarto.qmd
+            - docs/tutorials/getting_started/different_outputs.qmd
+          - section: "Quarto Projects"
+            contents:
+              - docs/projects/overview.qmd
       - section: "Guides"
         contents:
-          - docs/how_to/overview.qmd
+          - docs/guides/overview.qmd
       - section: "Reference"
         contents:
           - docs/references/overview.qmd
@@ -52,8 +58,10 @@ site:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - styles/custom.scss
     code-background: true
     code-copy: true
-    css: styles/styles.css
+    # css: styles/custom.scss
     toc: true

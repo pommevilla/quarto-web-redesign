@@ -1,5 +1,5 @@
 ---
-title: "overview.qmd"
+title: "Projects Overview"
 ---
 
 Goal of the section: Build up to a first website.
