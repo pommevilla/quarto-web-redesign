@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Quarto Docs – Example Python Document</title>
+  <title>Quarto Docs – Example R</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -79,32 +79,31 @@
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-  <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-  <meta name="quarto:offset" content="../../">
-  <script src="../../site_libs/quarto-search/autocomplete.min.js"></script>
-  <script src="../../site_libs/quarto-search/fuse.min.js"></script>
-  <script src="../../site_libs/quarto-search/quarto-search.js"></script>
-  <script src="../../site_libs/quarto-html/quarto.js"></script>
-  <script src="../../site_libs/quarto-html/popper.min.js"></script>
-  <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-  <script src="../../site_libs/quarto-html/clipboard.min.js"></script>
-  <script src="../../site_libs/quarto-html/anchor.min.js"></script>
-  <script src="../../site_libs/quarto-html/quarto-html.js"></script>
-  <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-  <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
-  <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-  <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-  <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles/styles.css">
+  <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+  <script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+  <meta name="quarto:offset" content="../../../">
+  <script src="../../../site_libs/quarto-search/autocomplete.min.js"></script>
+  <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+  <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+  <script src="../../../site_libs/quarto-html/quarto.js"></script>
+  <script src="../../../site_libs/quarto-html/popper.min.js"></script>
+  <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+  <script src="../../../site_libs/quarto-html/clipboard.min.js"></script>
+  <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+  <script src="../../../site_libs/quarto-html/quarto-html.js"></script>
+  <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+  <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+  <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+  <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div id="quarto-search-results"></div>
 <header id="quarto-header" class="headroom fixed-top">
 <nav class="navbar navbar-expand-lg navbar-dark bg-light ">
     <div class="container-fluid">
-  <a class="navbar-brand" href="../../index.html">
-    <img src="../../docs/images/quarto-logo.png" alt="">
+  <a class="navbar-brand" href="../../../index.html">
+    <img src="../../../docs/images/quarto-logo.png" alt="">
     Quarto Docs
   </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -112,25 +111,36 @@
 </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../docs/about/overview.html">
- About</a>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutorials" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ Tutorials
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-tutorials">    
+        <li>
+    <a class="dropdown-item" href="../../../docs/tutorials/getting_started/overview.html">
+ Getting started</a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../docs/getting_started/overview.html">
- Get Started</a>
+        <li>
+    <a class="dropdown-item" href="../../../docs/tutorials/quarto_projects/overview.html">
+ Quarto Projects</a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../docs/how_to/overview.html">
+    <a class="nav-link" href="../../../docs/guides/overview.html">
  Guides</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../docs/references/overview.html">
- Reference</a>
+    <a class="nav-link" href="../../../docs/references/overview.html">
+ References</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../docs/gallery/overview.html">
+    <a class="nav-link" href="../../../docs/gallery/overview.html">
  Gallery</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../docs/about/overview.html">
+ About</a>
   </li>  
 </ul>
           <form class="d-flex mb-0">
@@ -141,7 +151,7 @@
 </nav>
 <nav class="quarto-secondary-nav py-2 d-lg-none d-md-block " data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <div class="container-fluid d-flex justify-content-between">
-    <h1 class="quarto-secondary-nav-title mb-0 fs-3 d-inline">Example Python Document</h1>
+    <h1 class="quarto-secondary-nav-title mb-0 fs-3 d-inline">Example R</h1>
     <button type="button" class="quarto-btn-toggle btn d-lg-none py-0 px-1 d-inline-block border-0 ">
       <i class="bi bi-chevron-right"></i>
     </button>
@@ -160,42 +170,56 @@
       <ul class="list-unstyled sidebar-section depth1">
     <li class="">
         <div class="me-auto ">
+            <a class="sidebar-section-item d-inline-flex text-start w-100 collapsed" data-bs-toggle="collapse" data-bs-target="#tutorials-collapse" aria-expanded="false">
+              <div class="me-auto  sidebar-section-item">Tutorials</div>
+            <div><i class="bi bi-chevron-right ms-2 "></i></div>
+            </a>
+        </div>
+      <div class="collapse  " id="tutorials-collapse">
+        <ul class="list-unstyled sidebar-item-contents">
+          <ul class="list-unstyled sidebar-section depth2">
+    <li class="">
+        <div class="me-auto ">
             <a class="sidebar-section-item d-inline-flex text-start w-100 collapsed" data-bs-toggle="collapse" data-bs-target="#gettingstarted-collapse" aria-expanded="false">
-              <div class="me-auto  sidebar-section-item">Getting Started</div>
+              <div class="me-auto  sidebar-item">Getting Started</div>
             <div><i class="bi bi-chevron-right ms-2 "></i></div>
             </a>
         </div>
       <div class="collapse  " id="gettingstarted-collapse">
         <ul class="list-unstyled sidebar-item-contents">
           <li class="sidebar-item">
-  <a href="../../docs/getting_started/overview.html" class="">Hello Quarto</a>
+  <a href="../../../docs/tutorials/getting_started/overview.html" class="">Hello Quarto</a>
 </li>
           <li class="sidebar-item">
-  <a href="../../docs/getting_started/installation.html" class="">Installation</a>
+  <a href="../../../docs/tutorials/getting_started/installation.html" class="">Installation</a>
 </li>
           <li class="sidebar-item">
-  <a href="../../docs/getting_started/first_quarto.html" class="">Your First Quarto Document</a>
+  <a href="../../../docs/tutorials/getting_started/first_quarto.html" class="">Your First Quarto Document</a>
 </li>
           <li class="sidebar-item">
-  <a href="../../docs/getting_started/different_outputs.html" class="">Different Output Formats</a>
+  <a href="../../../docs/tutorials/getting_started/different_outputs.html" class="">Different Output Formats</a>
 </li>
         </ul>
       </div>
     </li>
   </ul>
-      <ul class="list-unstyled sidebar-section depth1">
+          <ul class="list-unstyled sidebar-section depth2">
     <li class="">
         <div class="me-auto ">
             <a class="sidebar-section-item d-inline-flex text-start w-100 collapsed" data-bs-toggle="collapse" data-bs-target="#quartoprojects-collapse" aria-expanded="false">
-              <div class="me-auto  sidebar-section-item">Quarto Projects</div>
+              <div class="me-auto  sidebar-item">Quarto Projects</div>
             <div><i class="bi bi-chevron-right ms-2 "></i></div>
             </a>
         </div>
       <div class="collapse  " id="quartoprojects-collapse">
         <ul class="list-unstyled sidebar-item-contents">
           <li class="sidebar-item">
-  <a href="../../docs/projects/overview.html" class="">overview.qmd</a>
+  <a href="../../../docs/projects/overview.html" class="">Projects Overview</a>
 </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
         </ul>
       </div>
     </li>
@@ -211,7 +235,7 @@
       <div class="collapse  " id="guides-collapse">
         <ul class="list-unstyled sidebar-item-contents">
           <li class="sidebar-item">
-  <a href="../../docs/how_to/overview.html" class="">Guides</a>
+  <a href="../../../docs/guides/overview.html" class="">Guides</a>
 </li>
         </ul>
       </div>
@@ -228,7 +252,7 @@
       <div class="collapse  " id="reference-collapse">
         <ul class="list-unstyled sidebar-item-contents">
           <li class="sidebar-item">
-  <a href="../../docs/references/overview.html" class="">References</a>
+  <a href="../../../docs/references/overview.html" class="">References</a>
 </li>
         </ul>
       </div>
@@ -242,21 +266,13 @@
   <div class="col mx-auto col-sm-12 col-md-9 col-lg-7 px-lg-4">
 <main>
 <header id="title-block-header">
-<h1 class="title d-none d-lg-block display-7">Example Python Document</h1>
+<h1 class="title d-none d-lg-block display-7">Example R</h1>
 </header>
-<p>This is a Quarto document containing Python code.</p>
+<p>This is a Quarto document containing R code.</p>
 <div class="cell">
-<div class="sourceCode" id="cb1"><pre class="sourceCode python cell-code code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> [x <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">11</span>)]</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>ax.plot(t, t)<span class="op">;</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r cell-code code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="python_example_files\figure-html/cell-2-output-1.png" width="566" height="404"></p>
+<p><img src="r_example-13272_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <!-- -->

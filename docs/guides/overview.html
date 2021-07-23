@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Quarto Docs – Different Output Formats</title>
+  <title>Quarto Docs – Guides</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -22,8 +22,8 @@
   <script src="../../site_libs/quarto-search/autocomplete.min.js"></script>
   <script src="../../site_libs/quarto-search/fuse.min.js"></script>
   <script src="../../site_libs/quarto-search/quarto-search.js"></script>
-  <link href="../../docs/projects/overview.html" rel="next">
-  <link href="../../docs/getting_started/first_quarto.html" rel="prev">
+  <link href="../../docs/references/overview.html" rel="next">
+  <link href="../../docs/projects/overview.html" rel="prev">
   <script src="../../site_libs/quarto-html/quarto.js"></script>
   <script src="../../site_libs/quarto-html/popper.min.js"></script>
   <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -35,7 +35,6 @@
   <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
   <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
   <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles/styles.css">
 </head>
 <body>
 <div id="quarto-search-results"></div>
@@ -51,25 +50,36 @@
 </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../docs/about/overview.html" aria-current="page">
- About</a>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle active" href="#" id="nav-menu-tutorials" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+ Tutorials
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-tutorials">    
+        <li>
+    <a class="dropdown-item" href="../../docs/tutorials/getting_started/overview.html">
+ Getting started</a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../docs/getting_started/overview.html">
- Get Started</a>
+        <li>
+    <a class="dropdown-item" href="../../docs/tutorials/quarto_projects/overview.html">
+ Quarto Projects</a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../docs/how_to/overview.html">
+    <a class="nav-link" href="../../docs/guides/overview.html">
  Guides</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../docs/references/overview.html">
- Reference</a>
+ References</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../docs/gallery/overview.html">
  Gallery</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/about/overview.html">
+ About</a>
   </li>  
 </ul>
           <form class="d-flex mb-0">
@@ -80,7 +90,7 @@
 </nav>
 <nav class="quarto-secondary-nav py-2 d-lg-none d-md-block " data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <div class="container-fluid d-flex justify-content-between">
-    <h1 class="quarto-secondary-nav-title mb-0 fs-3 d-inline">Different Output Formats</h1>
+    <h1 class="quarto-secondary-nav-title mb-0 fs-3 d-inline">Guides</h1>
     <button type="button" class="quarto-btn-toggle btn d-lg-none py-0 px-1 d-inline-block border-0 ">
       <i class="bi bi-chevron-right"></i>
     </button>
@@ -99,42 +109,56 @@
       <ul class="list-unstyled sidebar-section depth1">
     <li class="">
         <div class="me-auto ">
-            <a class="sidebar-section-item d-inline-flex text-start w-100 " data-bs-toggle="collapse" data-bs-target="#gettingstarted-collapse" aria-expanded="true">
-              <div class="me-auto  sidebar-section-item">Getting Started</div>
+            <a class="sidebar-section-item d-inline-flex text-start w-100 collapsed" data-bs-toggle="collapse" data-bs-target="#tutorials-collapse" aria-expanded="false">
+              <div class="me-auto  sidebar-section-item">Tutorials</div>
             <div><i class="bi bi-chevron-right ms-2 "></i></div>
             </a>
         </div>
-      <div class="collapse  show" id="gettingstarted-collapse">
+      <div class="collapse  " id="tutorials-collapse">
+        <ul class="list-unstyled sidebar-item-contents">
+          <ul class="list-unstyled sidebar-section depth2">
+    <li class="">
+        <div class="me-auto ">
+            <a class="sidebar-section-item d-inline-flex text-start w-100 collapsed" data-bs-toggle="collapse" data-bs-target="#gettingstarted-collapse" aria-expanded="false">
+              <div class="me-auto  sidebar-item">Getting Started</div>
+            <div><i class="bi bi-chevron-right ms-2 "></i></div>
+            </a>
+        </div>
+      <div class="collapse  " id="gettingstarted-collapse">
         <ul class="list-unstyled sidebar-item-contents">
           <li class="sidebar-item">
-  <a href="../../docs/getting_started/overview.html" class="">Hello Quarto</a>
+  <a href="../../docs/tutorials/getting_started/overview.html" class="">Hello Quarto</a>
 </li>
           <li class="sidebar-item">
-  <a href="../../docs/getting_started/installation.html" class="">Installation</a>
+  <a href="../../docs/tutorials/getting_started/installation.html" class="">Installation</a>
 </li>
           <li class="sidebar-item">
-  <a href="../../docs/getting_started/first_quarto.html" class="">Your First Quarto Document</a>
+  <a href="../../docs/tutorials/getting_started/first_quarto.html" class="">Your First Quarto Document</a>
 </li>
           <li class="sidebar-item">
-  <a href="../../docs/getting_started/different_outputs.html" class="active">Different Output Formats</a>
+  <a href="../../docs/tutorials/getting_started/different_outputs.html" class="">Different Output Formats</a>
 </li>
         </ul>
       </div>
     </li>
   </ul>
-      <ul class="list-unstyled sidebar-section depth1">
+          <ul class="list-unstyled sidebar-section depth2">
     <li class="">
         <div class="me-auto ">
             <a class="sidebar-section-item d-inline-flex text-start w-100 collapsed" data-bs-toggle="collapse" data-bs-target="#quartoprojects-collapse" aria-expanded="false">
-              <div class="me-auto  sidebar-section-item">Quarto Projects</div>
+              <div class="me-auto  sidebar-item">Quarto Projects</div>
             <div><i class="bi bi-chevron-right ms-2 "></i></div>
             </a>
         </div>
       <div class="collapse  " id="quartoprojects-collapse">
         <ul class="list-unstyled sidebar-item-contents">
           <li class="sidebar-item">
-  <a href="../../docs/projects/overview.html" class="">overview.qmd</a>
+  <a href="../../docs/projects/overview.html" class="">Projects Overview</a>
 </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
         </ul>
       </div>
     </li>
@@ -142,15 +166,15 @@
       <ul class="list-unstyled sidebar-section depth1">
     <li class="">
         <div class="me-auto ">
-            <a class="sidebar-section-item d-inline-flex text-start w-100 collapsed" data-bs-toggle="collapse" data-bs-target="#guides-collapse" aria-expanded="false">
+            <a class="sidebar-section-item d-inline-flex text-start w-100 " data-bs-toggle="collapse" data-bs-target="#guides-collapse" aria-expanded="true">
               <div class="me-auto  sidebar-section-item">Guides</div>
             <div><i class="bi bi-chevron-right ms-2 "></i></div>
             </a>
         </div>
-      <div class="collapse  " id="guides-collapse">
+      <div class="collapse  show" id="guides-collapse">
         <ul class="list-unstyled sidebar-item-contents">
           <li class="sidebar-item">
-  <a href="../../docs/how_to/overview.html" class="">Guides</a>
+  <a href="../../docs/guides/overview.html" class="active">Guides</a>
 </li>
         </ul>
       </div>
@@ -181,20 +205,23 @@
   <div class="col mx-auto col-sm-12 col-md-9 col-lg-7 px-lg-4">
 <main>
 <header id="title-block-header">
-<h1 class="title d-none d-lg-block display-7">Different Output Formats</h1>
+<h1 class="title d-none d-lg-block display-7">Guides</h1>
 </header>
-<p>Take the document we had above and render it to some slide formats.</p>
+<p>Placeholder for Guides.</p>
+<ul>
+<li>How to use the Github action to do blank…</li>
+</ul>
 <!-- -->
 </main>
 <div class="page-navigation page-navigation-docked">
   <div class="nav-page nav-page-previous">
-      <a href="../../docs/getting_started/first_quarto.html">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Your First Quarto Document</span>
+      <a href="../../docs/projects/overview.html">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Projects Overview</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../docs/projects/overview.html">
-        <span class="nav-page-text">overview.qmd</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../docs/references/overview.html">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </div>
