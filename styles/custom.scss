@@ -1,3 +1,9 @@
+/*-- scss:defaults --*/
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+$body-color:            $gray-700 !default;
+
+/*-- scss:rules --*/
 .sidebar-logo {
   max-width: 150px;
 }
@@ -14,8 +20,6 @@
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
 }
-
-/* navbar */
 
 .navbar-dark .navbar-brand {
   color: #000000;
@@ -40,7 +44,6 @@
     margin-right: 0rem;
 }
 
-/* Side scrollbar */
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
