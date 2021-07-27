@@ -6,10 +6,22 @@
     "text": ""
   },
   {
+    "href": "docs/references/documentation/site_yaml_options.html#site",
+    "title": "_quarto.yml options",
+    "section": "site",
+    "text": ""
+  },
+  {
+    "href": "docs/references/documentation/site_yaml_options.html#book",
+    "title": "_quarto.yml options",
+    "section": "book",
+    "text": ""
+  },
+  {
     "href": "docs/references/overview.html#documentation",
     "title": "References",
     "section": "Documentation",
-    "text": ""
+    "text": "-quarto.yml options by major formats:\n\nsite\nbook"
   },
   {
     "href": "docs/references/overview.html#further-reading",
@@ -30,10 +42,16 @@
     "text": "Placeholder for the about page.\n\nWhat is Quarto?\nWhy is Quarto?\nHow is Quarto?\nWho is Quarto?"
   },
   {
+    "href": "docs/tutorials/quarto_projects/first_project.html",
+    "title": "Your first Quarto project",
+    "section": "",
+    "text": "Goal: Create the first project and give some light detail to the user.\nCreate the project.\nWalk through what files it creates.\nExplain the files (own section for each).\nSpend a lot of time with _quarto.yml.\nquarto render the project."
+  },
+  {
     "href": "docs/tutorials/quarto_projects/overview.html",
     "title": "Quarto Projects Overview",
     "section": "",
-    "text": ""
+    "text": "We’ve seen how Quarto can render the same document containing different programming languages to several different formats using quarto render. In this next section, we’ll move from rendering a single document to rendering a project. Here, a project means a collection of documents, such as a website or a book."
   },
   {
     "href": "docs/tutorials/getting_started/first_quarto.html",

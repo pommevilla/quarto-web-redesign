@@ -2,58 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/index.html</loc>
-    <lastmod>2021-07-24T03:03:15.039Z</lastmod>
+    <lastmod>2021-07-27T03:58:29.349Z</lastmod>
+  </url>
+  <url>
+    <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/references/documentation/site_yaml_options.html</loc>
+    <lastmod>2021-07-27T03:58:30.793Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/references/overview.html</loc>
-    <lastmod>2021-07-24T03:03:16.439Z</lastmod>
+    <lastmod>2021-07-27T03:58:30.989Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/guides/overview.html</loc>
-    <lastmod>2021-07-24T03:03:16.599Z</lastmod>
+    <lastmod>2021-07-27T03:58:31.189Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/about/overview.html</loc>
-    <lastmod>2021-07-24T03:03:16.751Z</lastmod>
+    <lastmod>2021-07-27T03:58:31.369Z</lastmod>
+  </url>
+  <url>
+    <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/tutorials/quarto_projects/first_project.html</loc>
+    <lastmod>2021-07-27T03:58:31.553Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/tutorials/quarto_projects/overview.html</loc>
-    <lastmod>2021-07-24T03:03:16.899Z</lastmod>
+    <lastmod>2021-07-27T03:58:31.741Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/tutorials/getting_started/first_quarto.html</loc>
-    <lastmod>2021-07-24T03:03:17.035Z</lastmod>
+    <lastmod>2021-07-27T03:58:31.913Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/tutorials/getting_started/r_example.html</loc>
-    <lastmod>2021-07-24T03:03:17.307Z</lastmod>
+    <lastmod>2021-07-27T03:58:32.241Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/tutorials/getting_started/different_outputs.html</loc>
-    <lastmod>2021-07-24T03:03:17.459Z</lastmod>
+    <lastmod>2021-07-27T03:58:32.417Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/tutorials/getting_started/python_example.html</loc>
-    <lastmod>2021-07-24T03:03:17.699Z</lastmod>
+    <lastmod>2021-07-27T03:58:32.685Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/tutorials/getting_started/example_r_python.html</loc>
-    <lastmod>2021-07-24T03:03:17.951Z</lastmod>
+    <lastmod>2021-07-27T03:58:33.013Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/tutorials/getting_started/overview.html</loc>
-    <lastmod>2021-07-24T03:03:18.303Z</lastmod>
+    <lastmod>2021-07-27T03:58:33.381Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/tutorials/getting_started/installation.html</loc>
-    <lastmod>2021-07-24T03:03:18.463Z</lastmod>
+    <lastmod>2021-07-27T03:58:33.553Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/projects/overview.html</loc>
-    <lastmod>2021-07-24T03:03:18.599Z</lastmod>
+    <lastmod>2021-07-27T03:58:33.721Z</lastmod>
   </url>
   <url>
     <loc>https:/pommevilla.github.io/quarto-web-redesign/docs/gallery/overview.html</loc>
-    <lastmod>2021-07-24T03:03:18.747Z</lastmod>
+    <lastmod>2021-07-27T03:58:33.893Z</lastmod>
   </url>
 </urlset>
