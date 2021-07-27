@@ -1,0 +1,15 @@
+---
+title: 'Your first Quarto project'
+---
+
+Goal: Create the first project and give some light detail to the user. 
+
+Create the project.
+
+Walk through what files it creates.
+
+Explain the files (own section for each).
+
+Spend a lot of time with _quarto.yml.
+
+`quarto render` the project.
