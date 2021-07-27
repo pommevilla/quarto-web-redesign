@@ -16,13 +16,13 @@ site:
     type: light
     search: true
     logo: docs/images/quarto-logo.png
-    background: "light"
+    background: 'light'
     right:
       - text: "Tutorials"
         menu:
-          - text: "Getting started" 
+          - text: "Getting started"
             file: docs/tutorials/getting_started/overview.qmd
-          - text: "Quarto Projects" 
+          - text: "Quarto Projects"
             file: docs/tutorials/quarto_projects/overview.qmd
       - text: "Guides"
         url: docs/guides/overview.qmd
@@ -41,7 +41,7 @@ site:
       - section: "Tutorials"
         contents:
           - section: "Getting Started"
-            contents: 
+            contents:
             - docs/tutorials/getting_started/overview.qmd
             - docs/tutorials/getting_started/installation.qmd
             - docs/tutorials/getting_started/first_quarto.qmd
@@ -52,9 +52,15 @@ site:
       - section: "Guides"
         contents:
           - docs/guides/overview.qmd
-      - section: "Reference"
+      - section: "References"
         contents:
-          - docs/references/overview.qmd
+          - text: "Overview"
+            url: docs/references/overview.qmd
+          - section: "Documentation"
+            contents:
+            - docs/references/documentation/site_yaml_options.qmd
+          - section: "Further reading"
+
 
 
 format:

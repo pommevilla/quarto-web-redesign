@@ -1,8 +1,10 @@
 ---
 title: "Landing page"
 sidebar: false
+toc: false
 ---
 
-Placeholder for nice landing page.
+Placeholder.
 
-## What does this look like?
+## 
+
