@@ -49,7 +49,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutorials" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle active" href="#" id="nav-menu-tutorials" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
  Tutorials
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-tutorials">    
@@ -181,16 +181,33 @@
       <ul class="list-unstyled sidebar-section depth1">
     <li class="">
         <div class="me-auto ">
-            <a class="sidebar-section-item d-inline-flex text-start w-100 collapsed" data-bs-toggle="collapse" data-bs-target="#reference-collapse" aria-expanded="false">
-              <div class="me-auto  sidebar-section-item">Reference</div>
+            <a class="sidebar-section-item d-inline-flex text-start w-100 " data-bs-toggle="collapse" data-bs-target="#references-collapse" aria-expanded="true">
+              <div class="me-auto  sidebar-section-item">References</div>
             <div><i class="bi bi-chevron-right ms-2 "></i></div>
             </a>
         </div>
-      <div class="collapse  " id="reference-collapse">
+      <div class="collapse  show" id="references-collapse">
         <ul class="list-unstyled sidebar-item-contents">
           <li class="sidebar-item">
-  <a href="../../../docs/references/overview.html" class="">References</a>
+  <a href="../../../docs/references/overview.html" class="">Overview</a>
 </li>
+          <ul class="list-unstyled sidebar-section depth2">
+    <li class="">
+        <div class="me-auto ">
+            <a class="sidebar-section-item d-inline-flex text-start w-100 " data-bs-toggle="collapse" data-bs-target="#documentation-collapse" aria-expanded="true">
+              <div class="me-auto  sidebar-item">Documentation</div>
+            <div><i class="bi bi-chevron-right ms-2 "></i></div>
+            </a>
+        </div>
+      <div class="collapse  show" id="documentation-collapse">
+        <ul class="list-unstyled sidebar-item-contents">
+          <li class="sidebar-item">
+  <a href="../../../docs/references/documentation/site_yaml_options.html" class="active">`_quarto.yml` options</a>
+</li>
+        </ul>
+      </div>
+    </li>
+  </ul>
         </ul>
       </div>
     </li>
