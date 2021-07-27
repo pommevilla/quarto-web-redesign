@@ -2,14 +2,19 @@
 title: "References"
 ---
 
-Now that you're comfortable creating with Quarto, here are some nitty gritty details to deepen your knowledge.
+Now that you're comfortable creating with Quarto, here are some additional sources to deepen your knowledge.
+
+The references here are broadly separated into two categories: documentation and further reading.
+The documentation lists all the knobs and dials you can turn in Quarto.
+The Further Reading section consists of articles, blog posts, scholastic material, and other outside documents 
 
 ## Documentation
 
-* 
+`-quarto.yml` options by major formats:
 
+  - `site`
+  - `book`
+  
 
 ## Further reading
-
-* 
 

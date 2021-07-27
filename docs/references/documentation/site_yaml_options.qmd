@@ -1,0 +1,11 @@
+---
+title: "`_quarto.yml` options"
+---
+
+# Common options
+
+# Options by project type
+
+## `site`
+
+## `book`
