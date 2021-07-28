@@ -43,15 +43,15 @@
   },
   {
     "href": "docs/tutorials/quarto_projects/first_project.html",
-    "title": "Your first Quarto project",
+    "title": "Your First Quarto project",
     "section": "",
-    "text": "Goal: Create the first project and give some light detail to the user.\nCreate the project.\nWalk through what files it creates.\nExplain the files (own section for each).\nSpend a lot of time with _quarto.yml.\nquarto render the project."
+    "text": "Goal: Create the first project and give some light detail to the user.\nCreate the project.\nWalk through what files it creates.\nExplain the files (own section for each).\nSpend a lot of time with _quarto.yml.\nquarto render the project.\nSo what? There is only one document.\nAdd a document, re-render, check out the output.\nNext, we’ll add a few more documents and…"
   },
   {
     "href": "docs/tutorials/quarto_projects/overview.html",
     "title": "Quarto Projects Overview",
     "section": "",
-    "text": "We’ve seen how Quarto can render the same document containing different programming languages to several different formats using quarto render. In this next section, we’ll move from rendering a single document to rendering a project. Here, a project means a collection of documents, such as a website or a book."
+    "text": "We’ve seen how Quarto can render the same document containing different programming languages to several different formats using quarto render. In this next section, we’ll move from rendering a single document to rendering a book from a collection of documents using Quarto projects. This tutorial will cover:\n\nInitializing a Quarto project\nAdding documents to the project\nHow to render the project\nConfiguring project-wide settings\nOther output formats\n\n\n\n\n\n\n\nNote\n\n\n\nIf this is your first time using Quarto, we recommend beginning with the Getting Started section."
   },
   {
     "href": "docs/tutorials/getting_started/first_quarto.html",
