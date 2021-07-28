@@ -48,7 +48,9 @@ site:
             - docs/tutorials/getting_started/different_outputs.qmd
           - section: "Quarto Projects"
             contents:
-              - docs/projects/overview.qmd
+              - docs/tutorials/quarto_projects/overview.qmd
+              - docs/tutorials/quarto_projects/first_project.qmd
+              - docs/tutorials/quarto_projects/adding_files.qmd
       - section: "Guides"
         contents:
           - docs/guides/overview.qmd

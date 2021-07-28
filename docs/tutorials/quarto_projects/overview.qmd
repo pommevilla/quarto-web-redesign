@@ -3,5 +3,15 @@ title: Quarto Projects Overview
 ---
 
 We've seen how Quarto can render the same document containing different programming languages to several different formats using `quarto render`.
-In this next section, we'll move from rendering a single document to rendering a project. 
-Here, a project means a collection of documents, such as a website or a book.
+In this next section, we'll move from rendering a single document to rendering a book from a collection of documents using Quarto projects.
+This tutorial will cover:
+
+* Initializing a Quarto project
+* Adding documents to the project
+* How to render the project
+* Configuring project-wide settings
+* Other output formats
+
+:::{.callout-note}
+If this is your first time using Quarto, we recommend beginning with the [Getting Started](../getting_started/overview.qmd) section.
+:::
